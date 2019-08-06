@@ -1,21 +1,15 @@
-## [BEM](https://seesparkbox.com/foundry/bem_by_example)
+## CSS规范
 
 ### 目录
-- 整体规范
-  - 前提
-  - 不要单独使用修饰符类。修饰符类旨在扩充而不是替换基类。
-  - 元素组件
-  - 元素与修饰符
-  - 基于组件修饰符的样式元素
-  - 多字名称
+- 使用BEM整体规范
 - 多次出现的颜色值抽离
 - 公共样式抽离
-- 避免deep使用
+- 避免频繁的deep使用
 - 避免直接找到元素覆盖样式，创造custome class
 - 尽量使用缩写属性
 - 0后面不带单位
 
-### 前提
+### BEM介绍
 - BEM类名称最多包含三个部分
   - 块：组件的最外层父元素被定义为块。
   - 元素：组件内部可以是一个或多个称为元素的子元素。
@@ -172,6 +166,8 @@
 ```
 
 
-[小鼠和BEM：用CSS组织解决常见问题](https://seesparkbox.com/foundry/bem_css_organization)
-[BEM](http://getbem.com/introduction/)
-[BEM](https://en.bem.info/methodology/css/)
+### 请阅读
+- [小鼠和BEM：用CSS组织解决常见问题](https://seesparkbox.com/foundry/bem_css_organization)
+- [BEM](http://getbem.com/introduction/)
+- [BEM](https://en.bem.info/methodology/css/)
+- [BEM](https://seesparkbox.com/foundry/bem_by_example)
