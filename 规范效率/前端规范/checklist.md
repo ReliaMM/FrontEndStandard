@@ -16,5 +16,5 @@
 - 避免频繁的deep使用
 - 公共样式统一性
 
-### git
-- git commit是否清晰
+### Git
+- Git commit是否清晰
