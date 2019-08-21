@@ -17,8 +17,8 @@
   - 修饰符：块或元素可能具有由修饰符表示的变体
   [block]__[element]--[modifier]
 
-block 代表了更高级别的抽象或组件。 Block不是BEM血统的开始，它是统一的因素。此外，元素不是由他们的祖先定义的; 相反，它们是由它们在Block中的目的来定义的。
-block__element 代表 .block 的后代，用于形成一个完整的 .block 的整体。
+block 代表了更高级别的抽象或组件。 *Block不是BEM血统的开始，它是统一的因素*。此外，元素不是由他们的祖先定义的; 相反，它们是由它们在*Block中的目的*来定义的。
+block__element 代表 .block 的后代，用于*形成一个完整的 .block 的整体*。
 block--modifier 代表 .block 的不同状态或不同版本。使用两个连字符和下划线而不是一个，是为了让你自己的块可以用单个连字符来界定。如：
 .sub-block__element {}
 .sub-block--modifier {}
